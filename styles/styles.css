@@ -1,0 +1,231 @@
+:root {
+  /* colores */
+  --primary: #750000;
+  --secondary: #430652;
+  --alternative: #000;
+  --text-color: goldenrod;
+
+  /* Spacings */
+  --spacing-large: 6rem;
+  --spacing-medium: 2.4rem;
+  --spacing-small: 2rem;
+  --spacing-xsmall: 1rem;
+
+  /* Font-family */
+  --font-principal: 'Cinzel', sans-serif;
+
+  /* Font-Sizes */
+  --text-large: 5.2em;
+  --text-medium: 2.2em;
+  --text-base: 1.6em;
+  --text-small: 1.4em;
+}
+
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  
+html {
+    background-image: url("../images/rojoynegro.jpg");
+    background-color: #000000;
+    color: var(--text-color);
+    box-sizing: content-box;
+    font-size: 62.5%;
+    
+}
+    body {
+      font-family: var(--font-principal);
+ 
+      font-size: var(--text-small);
+    }
+   #main{
+      display: flex;
+      flex: 1;
+    }
+   a {
+      background-color: rgba(73, 1, 1, 0.103);
+      color: goldenrod;
+      display: flex;
+      text-decoration: none;
+   }
+          
+  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    li a {
+        padding: 8px;
+        background-color: #5204045e;
+        text-decoration: none;
+
+   }
+   header{
+      background-color: rgba(73, 2, 2, 0.13);
+      margin: 1px;
+      justify-content: space-evenly;
+      display: inline-block;
+      position: sticky;
+      
+
+     }
+     footer{
+      display: flex;
+      gap: 15px;
+      background-color: rgba(73, 2, 2, 0.096);
+     }
+.menu{
+  display: flex;
+  
+}
+
+.spotify{
+  margin: 5rem auto;
+  gap: 50px;
+  
+}
+.menu__link{
+  font-size: var(--spacing-small);
+}
+.menu__link:hover{
+  background-color: #8b070788;
+  color: goldenrod;
+}
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .header{
+      background-color: rgba(73, 2, 2, 0.13);
+      margin: 1px;
+      justify-content: space-evenly;
+      display: inline-block;
+      
+      }
+      .menu{
+        display: flex;
+        
+      } 
+      footer{
+        display: flex;
+        gap: 15px;
+        background-color: rgba(73, 2, 2, 0.096);
+       }
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .header{
+      background-color: rgba(73, 2, 2, 0.13);
+      margin: 1px;
+      justify-content: space-evenly;
+      display: inline-block;
+      position: sticky;
+      }
+      .menu{
+        display: flex;
+        
+      } 
+      footer{
+        display: flex;
+        gap: 15px;
+        background-color: rgba(73, 2, 2, 0.096);
+       }
+  }
+
+  @media (max-width: 400px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .header{
+      background-color: rgba(73, 2, 2, 0.13);
+      margin: 1px;
+      justify-content: space-evenly;
+      display: inline-block;
+      position: sticky;
+      }
+      .menu{
+        display: flex;
+        
+      } 
+      footer{
+        display: flex;
+        gap: 15px;
+        background-color: rgba(73, 2, 2, 0.096);
+       }
+
+  }
+  .banda {
+    background-color: rgba(73, 2, 2, 0.13);
+    box-sizing: content-box;
+    display: flexbox;
+    gap: 10px;
+    padding: 50px;
+    width: 75%;
+    
+    
+  }
+   .spotify {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    flex: 25%;
+    max-width: 80%;
+    }
+.contacto {
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 1200px;
+  row-gap: 200px;
+}
+.formulario{
+  display: grid;
+  grid-column: 1;
+  grid-row: 5;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  row-gap: 5px;
+  font-size:var(--text-small)
+  }
+  .button {
+    background-color: antiquewhite;
+    color: #000;
+    transition-duration: 0.4s;
+  }
+  .button:hover{
+    background-color: #000000;
+    color: goldenrod;
+    
+  }
