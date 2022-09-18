@@ -1,0 +1,10 @@
+header {
+    background-color: rgba(73, 2, 2, 0.13);
+    display: inline-block;
+    position: sticky;
+    justify-content: space-between;
+    .header__img {
+        width: 100%;
+        height: auto;
+    }
+}
