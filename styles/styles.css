@@ -98,9 +98,8 @@ header .header__img {
 }
 
 body {
-  background-image: url(/images/rojoynegro.jpg);
-  height: 100vh;
-}
+  background-image: url(../images/rojoynegro.jpg);
+  }
 
 .banda {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.212), rgba(53, 0, 27, 0.356));
