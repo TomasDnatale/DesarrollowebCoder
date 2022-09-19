@@ -1,0 +1,22 @@
+.menu {
+    list-style-type: none;
+    z-index: 1;
+    position: sticky;
+  .menu__item {
+    padding: 8px;
+    background-color: #5204045e;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.8s;
+    &:hover {
+        background-color: #7500007c;
+        color: rgba(218, 165, 32, 0.767);
+    }
+ .menu__link {
+    background-color: rgba(73, 1, 1, 0.103);
+    color: goldenrod;
+    text-decoration: none;
+    display: grid;
+ }
+}  
+}
