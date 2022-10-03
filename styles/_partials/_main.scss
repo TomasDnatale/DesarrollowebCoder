@@ -37,7 +37,7 @@ body {
   height: 500px;
   padding: 30px;
   row-gap: 5px;
-  font-size: var(--text-small);
+  font-size: map-get($fontsizes, --text-small );
 }
 .boton-contacto {
   background-color: antiquewhite;
