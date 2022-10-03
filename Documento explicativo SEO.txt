@@ -1,0 +1,7 @@
+En el archivo index.html sume el SEO con la siguientes caracteristicas:
+
+Descripcion: Mediante la etiqueta meta name description agregue el siguiente parrafo explicando brevemente de que trata la pagina: "Fan Page de Diablo Swing Orchestra".
+
+Palabras clave: Mediante la etiqueta meta name keywords agregue las palabras clave que acompañaran las paginas de mi sitio: "music, band, rock, avantgarde, sweden, indie".
+
+No utilize encabezado en el index pero si en la pestaña de banda, donde agregue h3.

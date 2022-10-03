@@ -3,59 +3,73 @@ body {
 }
 
 .banda {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.212), rgba(53, 0, 27, 0.356));
-    box-sizing: content-box;
-    display: flexbox;
-    gap: 10px;
-    width: 75%;
-    color: goldenrod;
-    }
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.212),
+    rgba(53, 0, 27, 0.356)
+  );
+  box-sizing: content-box;
+  display: flexbox;
+  gap: 10px;
+  width: 75%;
+  color: goldenrod;
+}
 
 .spotify {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0px;
-        flex: 25%;
-        max-width: 80%;
-        margin: 5rem auto;
-        gap: 50px;
-        }
-        .contacto {
-            flex-wrap: wrap;
-            row-gap: 200px;
-            color: goldenrod;
-            }
-            .formulario{
-            display: grid;
-            grid-column: 1;
-            grid-row: 5;
-            width: 500px;
-            height: 500px;
-            padding: 30px;
-            row-gap: 5px;
-            font-size:var(--text-small)
-            }
-            .boton-contacto {
-              background-color: antiquewhite;
-              color: #000;
-              transition-duration: 0.4s;
-            }
-            .boton-contacto:hover{
-              background-color: #000000;
-              color: goldenrod;
-            }
-            .row {
-                display: flex;
-                flex-wrap: wrap;
-                padding: 0 4px;
-              }
-            
-              .column {
-                flex: 25%;
-                max-width: 25%;
-                padding: 0 4px;
-                .column img {
-                    margin-top: 8px;
-                    vertical-align: middle;
-                  }
-              }
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  flex: 25%;
+  max-width: 80%;
+  margin: 5rem auto;
+  gap: 50px;
+}
+.contacto {
+  flex-wrap: wrap;
+  row-gap: 200px;
+  color: goldenrod;
+}
+.formulario {
+  display: grid;
+  grid-column: 1;
+  grid-row: 5;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  row-gap: 5px;
+  font-size: var(--text-small);
+}
+.boton-contacto {
+  background-color: antiquewhite;
+  color: #000;
+  transition-duration: 0.4s;
+}
+.boton-contacto:hover {
+  background-color: #000000;
+  color: goldenrod;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+}
+.textoindex {
+  background: linear-gradient(
+    to left,
+    rgba(155, 7, 7, 0.315),
+    rgba(206, 144, 11, 0.555)
+    );
+    color: rgba(134, 6, 33, 0.836);
+    text-shadow: 2px 2px #000;
+    margin: auto;
+    }
