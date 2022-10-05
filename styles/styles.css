@@ -82,7 +82,7 @@ body {
 }
 
 .banda {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.212), rgba(53, 0, 27, 0.356));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.212), rgba(53, 0, 27, 0.37));
   box-sizing: content-box;
   display: flexbox;
   gap: 10px;
