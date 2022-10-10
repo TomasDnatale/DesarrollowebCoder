@@ -82,7 +82,7 @@ body {
 }
 
 .banda {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.212), rgba(53, 0, 27, 0.37));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.212), rgba(53, 0, 27, 0.356));
   box-sizing: content-box;
   display: flexbox;
   gap: 10px;
@@ -148,6 +148,7 @@ body {
   background: linear-gradient(to left, rgba(155, 7, 7, 0.116), rgba(206, 144, 11, 0.137));
   color: rgba(190, 11, 11, 0.836);
   text-shadow: 2px 2px rgba(0, 0, 0, 0.733);
+  font-family: fantasy;
   margin: auto;
 }
 
