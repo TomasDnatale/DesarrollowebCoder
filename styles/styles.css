@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .column {
     flex: 100%;
     max-width: 100%;
@@ -17,6 +17,12 @@
     height: 100%;
     -o-object-fit: fill;
        object-fit: fill;
+  }
+  .row {
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -146,7 +152,7 @@ body {
 
 .textoindex {
   background: linear-gradient(to left, rgba(155, 7, 7, 0.116), rgba(206, 144, 11, 0.137));
-  color: rgba(190, 11, 11, 0.836);
+  color: rgba(190, 133, 11, 0.836);
   text-shadow: 2px 2px rgba(0, 0, 0, 0.733);
   font-family: fantasy;
   margin: auto;
